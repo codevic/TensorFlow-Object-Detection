@@ -10,8 +10,18 @@ This is an ipm package, which contains one or more reusable assets within the ip
 [Browse ipm Packages](https://ipm.clearblade.com)
 
 ## Setup
+The host machine should have a miniconda/anaconda installed with python 3.5 to run the YOLO model(tensorflow).
 
-_Add any setup instructions, such as an API Key_
+(Directions to install miniconda)
+wget https://repo.continuum.io/miniconda/Miniconda3-3.7.0-Linux-x86_64.sh -O ~/miniconda.sh
+bash ~/miniconda.sh -b -p $HOME/miniconda
+export PATH="$HOME/miniconda/bin:$PATH"
+
+Use the included environment.yml file to get the required python libraries/packages.
+Use the Terminal or an Anaconda Prompt for the following steps.
+
+conda env create -f environment.yml
+The first line of the yml file sets the new environment’s name.
 
 ## Usage
 
