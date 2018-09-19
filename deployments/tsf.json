@@ -1,0 +1,23 @@
+{
+    "assets": [
+        {
+            "asset_class": "portals",
+            "asset_id": "jpegUpload",
+            "deployment": "tsf",
+            "member": "tsf_deployment_edge_group",
+            "sync": true
+        },
+        {
+            "asset_class": "adaptors",
+            "asset_id": "yolo",
+            "deployment": "tsf",
+            "member": "tsf_deployment_edge_group",
+            "sync": true
+        }
+    ],
+    "description": "",
+    "edges": [
+        "Mac"
+    ],
+    "name": "tsf"
+}
