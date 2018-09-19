@@ -1,0 +1,36 @@
+{
+    "asset_types": [
+        "Adapters",
+        "Code Services",
+        "Collections",
+        "Devices",
+        "Edges",
+        "Portals",
+        "Roles",
+        "Users"
+    ],
+    "author": {
+        "email": "vsoni@clearblade.com"
+    },
+    "clouds": [],
+    "description": "This IPM lets you upload a WebCam stream to YOLO(You Only Look Once) Object Detection Model which is running on the adapter(having the tensorflow model) ",
+    "domains": [],
+    "gateways": [],
+    "image_url": "https://docs.clearblade.com/v/3/static/img/default_package.png",
+    "keywords": [
+        "clearblade",
+        "iot",
+        "platform",
+        "tensorflow",
+        "YOLO",
+        "Machine Learning",
+        "Artificial Intelligence"
+    ],
+    "license": "MIT",
+    "name": "TensorFlow-Object-Detection",
+    "private": false,
+    "prog_lang": [],
+    "protocols": [],
+    "things": [],
+    "version": "1.0.0"
+}
