@@ -1,0 +1,103 @@
+{
+    "Description": "Default role that is applied to all unauthenticated users",
+    "ID": "Anonymous",
+    "Name": "Anonymous",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 15
+        },
+        "AllServices": {
+            "Level": 15
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "aaronTest",
+                "SystemKey": "beda8eb80bfadd9ea6f9f3b3e176"
+            },
+            {
+                "Level": 1,
+                "Name": "cserviceImage",
+                "SystemKey": "beda8eb80bfadd9ea6f9f3b3e176"
+            },
+            {
+                "Level": 1,
+                "Name": "cservice_image",
+                "SystemKey": "beda8eb80bfadd9ea6f9f3b3e176"
+            },
+            {
+                "Level": 1,
+                "Name": "testFromPortal",
+                "SystemKey": "beda8eb80bfadd9ea6f9f3b3e176"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "ID": "dcdce8a40bbebdb9e9dcfbbc93e501",
+                "Items": [],
+                "Level": 15,
+                "Name": "dcdce8a40bbebdb9e9dcfbbc93e501"
+            },
+            {
+                "Columns": [],
+                "ID": "c2da8eb80b9ec08af6f6fccbe3d401",
+                "Items": [],
+                "Level": 15,
+                "Name": "vision_history"
+            }
+        ],
+        "Deployments": {
+            "Level": 15
+        },
+        "DevicesList": {
+            "Level": 15
+        },
+        "EdgesList": {
+            "Level": 15
+        },
+        "MsgHistory": {
+            "Level": 15
+        },
+        "Portals": [
+            {
+                "Level": 5,
+                "Name": "jpegUpload",
+                "SystemKey": "beda8eb80bfadd9ea6f9f3b3e176"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "Roles": {
+            "Level": 15
+        },
+        "Timers": {
+            "Level": 15
+        },
+        "Topics": [
+            {
+                "Level": 3,
+                "Name": "predict"
+            },
+            {
+                "Level": 3,
+                "Name": "predict/results"
+            },
+            {
+                "Level": 3,
+                "Name": "config"
+            },
+            {
+                "Level": 3,
+                "Name": "#"
+            }
+        ],
+        "Triggers": {
+            "Level": 15
+        },
+        "UsersList": {
+            "Level": 15
+        }
+    }
+}
