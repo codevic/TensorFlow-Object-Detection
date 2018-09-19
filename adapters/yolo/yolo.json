@@ -1,0 +1,14 @@
+{
+    "architecture": "edge-darwin-amd64",
+    "deploy_command": "sh venv.sh",
+    "description": "",
+    "logs_command": "",
+    "name": "yolo",
+    "os": "",
+    "protocol": "",
+    "start_command": "sh start.sh",
+    "status_command": "sh status.sh",
+    "stop_command": "",
+    "undeploy_command": "",
+    "version": 8
+}
